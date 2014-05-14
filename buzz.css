@@ -1,0 +1,43 @@
+body {
+color:#f3f3f3;
+font-family: sans-serif;
+font-size:large;
+background-color: #f3f3f3;
+
+}
+
+a {
+color:#d3d3d3;
+text-decoration:none;
+
+}
+
+#container, #footer {
+background-color: #555;
+margin: 80px 250px;
+width:auto;
+padding: 35px;
+text-align:center;
+line-height: 1.5;
+border-radius:40px;
+}
+
+#footer {
+margin:0;
+margin-left: -275px;
+width:auto;
+font-size:small;
+padding: 3px 12px;
+position:fixed;
+bottom:15px;
+left: 50%;
+}
+
+#footer a {
+color:white;
+}
+
+#buzz{
+font-size:x-large;
+
+}
