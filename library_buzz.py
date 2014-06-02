@@ -9,13 +9,14 @@ def main():
                            'Graphic novels', 'Makerspaces', 'GIS', 'Best practices', 'Crowdsourcing',
                            "Big data", 'Hackathons', "Zombie walks", "Augmented reality", 'Gamification', 
                            'Altmetrics', "Rethinking", "Flipped classrooms", "Zines", "New media", "Mashups", "Web 3.0", 
-                           "Engaging users", "Flashmobs", "Community engagement"])
+                           "Engaging users", "Flashmobs", "Community engagement", "Best practices for", "OERs",
+						   "Outcomes-based assessment"])
     buzz2 = random.choice(["for", 'for', 'with', 'with', 'without', 'to assist', "to create", 'to enable', 'to extend',
                            'to empower', 'in', 'and', 'and', 'for', 'to assist', 'to create', 'to enable', 'to extend', 
                            'in', 'and', 'to reinvent', 'to reinvent'])
     buzz3 = random.choice(['non-traditional students.', 'embedded librarians.', 'underserved populations.', 
                            'information literacy.', 'digital natives.', 'born-digital content.', 
-                           'iPads.', 'just-in-time instruction.', 'data curation.', 'communcating value.', 
+                           'iPads.', 'just-in-time instruction.', 'data curation.', 'demonstrating value.', 
                            'digital humanities.', 'digital learning objects.', 'non-traditional learners.',
                            'copyright compliance.', 'fair use.', 'makerspaces.', 'the semantic web.', 
                            'outcomes assessment.', 'ebook readers.', 'net neutrality.', 'interoperability.',
@@ -23,12 +24,12 @@ def main():
                            'the cloud.', 'scholarly communications.', 'tweens.', 'gigabit networks.', 
                            "digital preservation.", "web 3.0.", "one-shot instruction sessions.",
                            "job seekers.", "unemployed librarians.", "community engagement.",
-                           "defending challenged materials."])
+                           "defending challenged materials.", "experiential learning."])
     
     if buzz3 == "communcating value." or buzz3 == "defending challenged materials.":
         buzz2 = random.choice(['for', 'and'])  
         
-    if buzz1 == "Rethinking":
+    if buzz1 == "Rethinking" or buzz1 == "Best practices for":
         buzz2 = ""
 
     
